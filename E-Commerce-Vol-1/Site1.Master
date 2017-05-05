@@ -1,0 +1,423 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebTemplate.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<title>Modern Shoppe a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Modern Shoppe Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+               function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--//for-mobile-apps -->
+<!--Custom Theme files -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<!--//Custom Theme files -->
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<!--//js-->
+<!--cart-->
+<script src="js/simpleCart.min.js"></script>
+<!--cart-->
+<!--web-fonts-->
+
+<!--web-fonts-->
+<!--animation-effect-->
+<link href="css/animate.min.css" rel="stylesheet"> 
+<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+<!--//animation-effect-->
+<!--start-smooth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+    				<!---->
+						<script type='text/javascript'>//<![CDATA[ 
+							$(window).load(function(){
+							 $( "#slider-range" ).slider({
+										range: true,
+										min: 0,
+										max: 9000,
+										values: [ 1000, 7000 ],
+										slide: function( event, ui ) {  $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+										}
+							 });
+							$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+
+							});//]]>  
+						</script>
+						<script type="text/javascript" src="js/jquery-ui.js"></script>
+						<!---->
+    
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div>
+            <!--header-->
+	    <div class="header">
+    
+                                            <script>
+                                                $(document).ready(function () {
+
+                                                    $("#btnAlert").click(function () {
+                                                        alert("The paragraph was clicked.");
+                                                    });
+
+                                                });
+                                            </script>
+
+		<div class="top-header navbar navbar-default"><!--header-one-->
+			<div class="container">
+				<div class="nav navbar-nav wow fadeInLeft animated" data-wow-delay=".5s">
+					<p>İlk E-Ticaret Siteme Hoşgeldiniz<a href="register.aspx">Kayıt</a> / <a href="signin.aspx">Oturum Aç </a></p>
+				</div>
+				<div class="nav navbar-nav navbar-right social-icons wow fadeInRight animated" data-wow-delay=".5s">
+					<ul>
+						<li><a href="#"> </a></li>
+						<li><a href="#" class="pin"> </a></li>
+						<li><a href="#" class="in"> </a></li>
+						<li><a href="#" class="be"> </a></li>
+						<li><a href="#" class="you"> </a></li>
+						<li><a href="#" class="vimeo"> </a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="header-two navbar navbar-default"><!--header-two-->
+			<div class="container">
+				<div class="nav navbar-nav header-two-left">
+					<ul>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+90 507 687 14 77</li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">kursatmail@hotmail.com</a></li>			
+					</ul>
+				</div>
+				<div class="nav navbar-nav logo wow zoomIn animated" data-wow-delay=".7s">
+					<h1><a href="index.aspx">E <b>Ticaret</b><span class="tag">Her şey sizler için </span> </a></h1>
+				</div>
+				<div class="nav navbar-nav navbar-right header-two-right">
+					<div class="header-right my-account">
+						<a href="contact.aspx"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> İLETİŞİM </a>						
+					</div>
+					<div class="header-right cart">
+						<a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+						<h4><a href="checkout.aspx">
+								<span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>) 
+						</a></h4>
+						<div class="cart-box">
+							<p><a href="javascript:;" class="simpleCart_empty">Empty cart</a></p>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="top-nav navbar navbar-default"><!--header-three-->
+			<div class="container">
+                <div class="as-menu">
+<nav class="navbar" role="navigation">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<!--navbar-header-->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav top-nav-info">
+							<li><a href="index.aspx" class="active">Anasayfa</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Elektronik<b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column multi-column1">
+									<div class="row">
+										<div class="col-sm-4 menu-grids menulist1">
+											<h4>Bilgisayar & Tablet</h4>
+											<ul class="multi-column-dropdown ">
+											<li><asp:LinkButton ID="lnkbtnMB" runat="server" OnClick="lnkbtnMB_Click">Dizüstü Bilgisayar</asp:LinkButton></li>
+											<li><asp:LinkButton ID="lnkbtnT" runat="server" OnClick="lnkbtnT_Click">Tablet</asp:LinkButton></li>
+											<li><asp:LinkButton ID="lnkbtnBB" runat="server" OnClick="lnkbtnBB_Click">Bilgisayar Bileşenleri</asp:LinkButton></li>
+											<li><asp:LinkButton ID="lnkbtnV" runat="server" OnClick="lnkbtnV_Click">Veri Depolama</asp:LinkButton></li>
+											</ul>                                  
+										</div>																		
+										<div class="col-sm-2 menu-grids">
+											<h4>Telefon</h4>
+											<ul class="multi-column-dropdown">
+												<li><asp:LinkButton ID="LinkButton1" runat="server" OnClick="lnkbtnMB_Click">Cep telefonu</asp:LinkButton></li>
+                                                <li><asp:LinkButton ID="LinkButton2" runat="server" OnClick="lnkbtnMB_Click">Aksesuar</asp:LinkButton></li>
+                                                <li><asp:LinkButton ID="LinkButton3" runat="server" OnClick="lnkbtnMB_Click">Yedek Parça</asp:LinkButton></li>
+                                                <li><asp:LinkButton ID="LinkButton4" runat="server" OnClick="lnkbtnMB_Click">Koruyucular</asp:LinkButton></li>
+											</ul>
+										</div>
+										<div class="col-sm-3 menu-grids">
+											<ul class="multi-column-dropdown">
+												<h4>Ev Eşyaları</h4>     
+                                                	<li><asp:LinkButton ID="LinkButton5" runat="server" OnClick="lnkbtnMB_Click">Beyaz Eşya</asp:LinkButton></li>
+                                                	<li><asp:LinkButton ID="LinkButton6" runat="server" OnClick="lnkbtnMB_Click">Mobilya</asp:LinkButton></li>
+                                                	<li><asp:LinkButton ID="LinkButton7" runat="server" OnClick="lnkbtnMB_Click">Elektrikli Ev Aletleri</asp:LinkButton></li>          
+											</ul>
+										</div>
+										<div class="col-sm-3 menu-grids">
+											<ul class="multi-column-dropdown">
+												<h4>TV&Görüntü,Ses Sistemleri</h4>
+                                                <li><asp:LinkButton ID="LinkButton10" runat="server" OnClick="lnkbtnMB_Click">LCD Televizyon</asp:LinkButton></li>
+                                                <li><asp:LinkButton ID="LinkButton9" runat="server" OnClick="lnkbtnMB_Click">Hapörlör</asp:LinkButton></li>
+                                                <li><asp:LinkButton ID="LinkButton8" runat="server" OnClick="lnkbtnMB_Click">Kablo&Sarf Malzeme</asp:LinkButton></li>
+											</ul>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</ul>
+							</li>
+							<li class="dropdown grid">
+								<a href="#" class="dropdown-toggle list1" data-toggle="dropdown">Mobilya<b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column multi-column2">
+									<div class="row">
+										<div class="col-sm-3 menu-grids">
+											<h4>New Arrivals</h4>
+											<ul class="multi-column-dropdown">
+												<li><a class="list" href="products.aspx">Topwear</a></li>
+												<li><a class="list" href="products.aspx">Bottomwear</a></li>
+												<li><a class="list" href="products.aspx">Innerwear</a></li>
+												<li><a class="list" href="products.aspx">Nightwear</a></li>
+												<li><a class="list" href="products.aspx">Swimwear</a></li>
+												<li><a class="list" href="products.aspx">Jumpers</a></li>
+											</ul>                                  
+										</div>																	
+										<div class="col-sm-3 menu-grids">          
+											<h4>Boys</h4>                          
+											<ul class="multi-column-dropdown">     
+												<li><a class="list" href="products.aspx">Jeans</a></li>
+												<li><a class="list" href="products.aspx">Shirts</a></li>
+												<li><a class="list" href="products.aspx">T-shirts</a></li>
+												<li><a class="list" href="products.aspx">Dhoti Kurta Sets</a></li>
+												<li><a class="list" href="products.aspx">Winter wear</a></li>
+												<li><a class="list" href="products.aspx">Party Wear</a></li>
+											</ul>                                  
+										</div>                                     
+										<div class="col-sm-3 menu-grids">          
+											<h4>Girls</h4>                         
+											<ul class="multi-column-dropdown">     
+												<li><a class="list" href="products.aspx">Tops</a></li>
+												<li><a class="list" href="products.aspx">Leggings</a></li>
+												<li><a class="list" href="products.aspx">Dresses </a></li>
+												<li><a class="list" href="products.aspx">Skirts</a></li>
+												<li><a class="list" href="products.aspx">Casual Dresses</a></li>
+												<li><a class="list" href="products.aspx">Capris & 3/4ths</a></li>
+											</ul>
+										</div>
+										<div class="col-sm-3 menu-grids new-add2">
+											<a href="products.aspx">
+												<h6>Kids Special</h6>
+												<img src="images/img1.jpg" alt="">
+											</a>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</ul>
+							</li>
+							<li class="dropdown grid">
+								<a href="#" class="dropdown-toggle list1" data-toggle="dropdown">Spor-Outdoor<b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column menu-two multi-column3">
+									<div class="row">
+										<div class="col-sm-4 menu-grids">
+											<ul class="multi-column-dropdown">
+												<li><a class="list" href="products.aspx">Jewellery</a></li>
+												<li><a class="list" href="products.aspx">Hair bands & Clips</a></li>
+												<li><a class="list" href="products.aspx">Bangles </a></li>
+												<li><a class="list" href="products.aspx">Caps & Belts</a></li>
+												<li><a class="list" href="products.aspx">Rain wear</a></li>
+												<li><a class="list" href="products.aspx">Bags</a></li>
+											</ul>
+										</div>
+										<div class="col-sm-8 menu-grids">
+											<a href="products.aspx">
+												<div class="new-add">
+													<h5>30% OFF <br> Today Only</h5>
+												</div>	
+											</a>
+										</div>	
+										<div class="clearfix"> </div>
+									</div>	
+								</ul>
+							</li>				
+							<li class="dropdown grid">
+								<a href="#" class="dropdown-toggle list1" data-toggle="dropdown">Kozmetik<b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column multi-column4">
+									<div class="row">
+										<div class="col-sm-4 menu-grids menulist1">
+											<h4>BABY</h4>
+											<ul class="multi-column-dropdown ">
+												<li><a class="list" href="products.aspx">Rockers</a></li>
+												<li><a class="list" href="products.aspx">Rattles</a></li>
+												<li><a class="list" href="products.aspx">Stroller Toys</a></li>
+												<li><a class="list" href="products.aspx">Musical Toys </a></li>
+												<li><a class="list" href="products.aspx">Doll Houses</a></li>
+												<li><a class="list" href="products.aspx">Play Sets</a></li>
+											</ul>                                 
+											<ul class="multi-column-dropdown">    
+												<li><a class="list" href="products.aspx">Toys Dolls</a></li>
+												<li><a class="list" href="products.aspx">Pacifiers</a></li>
+												<li><a class="list" href="products.aspx">Building Sets</a></li>
+												<li><a class="list" href="products.aspx">Bath Toys</a></li>
+												<li><a class="list" href="products.aspx">Soft Toys</a></li>
+												<li><h6><a class="list" href="products.aspx">Special Off</a></h6></li>
+											</ul>
+										</div>																		
+										<div class="col-sm-2 menu-grids">
+											<h4>Pretend Play</h4>
+											<ul class="multi-column-dropdown">
+												<li><h6><a class="list" href="products.aspx">Video Games</a></h6></li>
+												<li><a class="list" href="products.aspx">Kitchen Sets</a></li>
+												<li><a class="list" href="products.aspx">Sand Toys</a></li>
+												<li><a class="list" href="products.aspx">Tool Sets</a></li>
+												<li><a class="list" href="products.aspx">Bath Toys</a></li>
+												<li><a class="list" href="products.aspx">Medical Set</a></li>
+											</ul>                                 
+										</div>                                    
+										<div class="col-sm-2 menu-grids">         
+											<h4>Outdoor</h4>                      
+											<ul class="multi-column-dropdown">    
+												<li><a class="list" href="products.aspx">Swimming</a></li>
+												<li><a class="list" href="products.aspx">Rideons </a></li>
+												<li><a class="list" href="products.aspx">Scooters</a></li>
+												<li><a class="list" href="products.aspx">Remote Control</a></li>
+												<li><a class="list" href="products.aspx">Animals</a></li>
+												<li><a class="list" href="products.aspx">Make up</a></li>
+											</ul>
+										</div>
+										<div class="col-sm-4 menu-grids">
+											<a href="products.aspx">
+												<div class="new-add">
+													<h5>30% OFF <br> Today Only</h5>
+												</div>
+											</a>	
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</ul>
+							</li>
+							<li><a href="codes.aspx">Special Offers</a></li>
+						</ul> 
+						<div class="clearfix"> </div>
+						<!--//navbar-collapse-->
+                        <div style=" float:right !important; height:10px; width:10px;" class="cd-bosluk-div">
+                            <header class="cd-main-header">
+							<ul class="cd-header-buttons">
+								<li><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
+							</ul> <!-- cd-header-buttons -->
+						</header>
+                        </div>
+						
+					</div>
+					<!--//navbar-header-->
+				</nav>
+                </div>
+			
+                    <div id="cd-search" class="cd-search">
+
+					<form>
+						<input type="search" placeholder="Search...">
+					</form>
+		
+				</div>
+				
+			
+		</div>
+	</div>
+	<!--//header-->
+        </div>
+        <asp:ContentPlaceHolder ID="content" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <footer>
+            	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-info">
+				<div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".5s">
+					<h4 class="footer-logo"><a href="index.aspx">Modern <b>Shoppe</b> <span class="tag">Everything for Kids world </span> </a></h4>
+					<p>© 2016 Modern Shoppe . All rights reserved | Design by <a href="http://w3layouts.com" target="_blank">W3layouts</a></p>
+				</div>
+				<div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".7s">
+					<h3>Popular</h3>
+					<ul>
+						<li><a href="about.aspx">About Us</a></li>
+						<li><a href="products.aspx">new</a></li>
+						<li><a href="contact.aspx">Contact Us</a></li>
+						<li><a href="faq.aspx">FAQ</a></li>
+						<li><a href="checkout.aspx">Wishlist</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 footer-grids wow fadeInUp animated" data-wow-delay=".9s">
+					<h3>Subscribe</h3>
+					<p>Sign Up Now For More Information <br> About Our Company </p>
+					<form>
+						<input type="text" placeholder="Enter Your Email" required="">
+						<input type="submit" value="Go">
+					</form>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--//footer-->	
+        </footer>
+    </div>
+    </form>
+    	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+			<script type="text/javascript" id="sourcecode">
+				$(function()
+				{
+					$('.scroll-pane').jScrollPane();
+				});
+			</script>
+	<!-- //the jScrollPane script -->
+	<script src="js/main.js"></script>
+	<!--//search jQuery-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!--//smooth-scrolling-of-move-up-->
+	<!--Bootstrap core JavaScript
+    ================================================== -->
+    <!--Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+ 
+</body>
+</html>
