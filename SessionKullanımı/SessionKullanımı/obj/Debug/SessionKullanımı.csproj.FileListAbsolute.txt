@@ -1,0 +1,40 @@
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\csc.exe
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\System.Collections.Immutable.dll
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\vbc.exe
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\VBCSCompiler.exe
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\VBCSCompiler.exe.config
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\SessionKullanımı.dll.config
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\SessionKullanımı.dll
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\SessionKullanımı.pdb
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\obj\Debug\SessionKullanımı.csprojResolveAssemblyReference.cache
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\obj\Debug\SessionKullanımı.dll
+c:\users\kursat cakal\documents\visual studio 2015\Projects\SessionKullanımı\SessionKullanımı\obj\Debug\SessionKullanımı.pdb
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\csc.exe
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\System.Collections.Immutable.dll
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\System.Reflection.Metadata.dll
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\vbc.exe
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\VBCSCompiler.exe
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\roslyn\VBCSCompiler.exe.config
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\SessionKullanımı.dll.config
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\SessionKullanımı.dll
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\SessionKullanımı.pdb
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\obj\Debug\SessionKullanımı.csprojResolveAssemblyReference.cache
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\obj\Debug\SessionKullanımı.dll
+D:\PC FORMAT\Projects2017_ProjeBittiktenSonra\Projects\SessionKullanımı\SessionKullanımı\obj\Debug\SessionKullanımı.pdb
